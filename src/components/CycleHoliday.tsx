@@ -29,7 +29,7 @@ export function CycleHoliday(): React.JSX.Element {
                     setHoliday(holidayTime[holiday]);
                 }}
             >
-                Advance by Time
+                Advance by Year
             </Button>
             <Button
                 onClick={() => {
@@ -39,8 +39,7 @@ export function CycleHoliday(): React.JSX.Element {
                 Advance by Alphabet
             </Button>
             <br />
-            Holiday:
-            <span style={{ fontSize: "60px" }}>{holiday}</span>
+            <span style={{ fontSize: "60px" }}>Holiday: {holiday}</span>
         </div>
     );
 }
